@@ -1,0 +1,26 @@
+import.java.io.*;
+class employee {
+String Name;
+String Address;
+int Yearofjoining;
+void show() {
+System.out.println("Employee");
+}
+}
+public class employeeinfo{
+public static void main(String[] args){
+Employee one = new Employee();
+one.Name = "Robert" ;
+one.Yearofjoining = 1994 ;
+one.Address = "64C- WallsStreet";
+Employee two = new Employee();
+two.Name = "Sam" ;
+two.Yearofjoining = 2000 ;
+two.Address = "68D- WallsStreet";
+Employee three = new Employee();
+three.Name = "John" ;
+three.Yearofjoining = 1999 ;
+three.Address = "26B- WallsStreet";
+}
+}
+
