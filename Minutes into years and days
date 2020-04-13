@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class days;{
+
+     public static void main(String []args){
+      int mins,years,days;
+      Scanner s = newScanner(System.in);
+      mins = s.nextInt();
+      years = mins / 365;
+      days = mins / (60*24);  
+      System.out.println("No. of years="+years);
+      System.out.println("No. of days="+days);
+     } 
+}
